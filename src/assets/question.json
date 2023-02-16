@@ -1,0 +1,166 @@
+
+{
+    "questions": [{
+            "questionText": " Lequel des éléments suivants TypeScript utilise-t-il pour spécifier les types ?",
+            "options": [{
+                    "text": ":",
+                    "correct": true
+                },
+                {
+                    "text": ";"
+                },
+                {
+                    "text": "!"
+                },
+                {
+                    "text": "&"
+                }
+            ],
+            "explanation": " TS utilise deux-points (:) pour séparer le nom de la propriété du type de propriété "
+        },
+        {
+            "questionText": "Lequel des éléments suivants N'EST PAS un type utilisé dans TypeScript?",
+            "options": [{
+                    "text": "nombre"
+                },
+                {
+                    "text": "chaine"
+                },
+                {
+                    "text": "booléen"
+                },
+                {
+                    "text": "enum",
+                    "correct": true
+                }
+            ],
+            "explanation": "enum n'est pas utilisé comme type dans TypeScript"
+        },
+        {
+            "questionText": " Comment pouvons-nous spécifier les propriétés et les méthodes d'un objet dans TypeScript?",
+            "options": [{
+                    "text": "Utilise les classes."
+                },
+                {
+                    "text": "  Utiliser les interfaces.",
+                    "correct": true
+                },
+                {
+                    "text": "Utilise des énumérations."
+                },
+                {
+                    "text": " Utilise async/wait."
+                }
+            ],
+            "explanation": "les interfaces sont généralement utilisées pour lister les propriétés et les méthodes d'un objet"
+        },
+        {
+            "questionText": "Sinon, comment peut-on écrire Array<nombre> en TypeScript ? ",
+            "options": [{
+                    "text": "@numéro"
+                },
+                {
+                    "text": "nombre[]",
+                    "correct": true
+                },
+                {
+                    "text": "numéro!"
+                },
+                {
+                    "text": "numéro?"
+                }
+            ],
+            "explanation": "number[] est une autre façon d'écrire Array<number> en TypeScript "
+        },
+        {
+            "questionText": "Dans lequel de ces paramètres une classe prend-elle des paramètres?",
+            "options": [{
+                    "text": "constructeur",
+                    "correct": true
+                },
+                {
+                    "text": "destructeur"
+                },
+                {
+                    "text": "importer"
+                },
+                {
+                    "text": "s'abonner"
+                }
+            ],
+            "explanation": " un constructeur est utilisé par une classe pour prendre des paramètres"
+        },
+        {
+            "questionText": "Lequel n'est PAS un modificateur d'accès?",
+            "options": [{
+                    "text": "private"
+                },
+                {
+                    "text": "protected"
+                },
+                {
+                    "text": "public"
+                },
+                {
+                    "text": "async",
+                    "correct": true
+                }
+            ],
+            "explanation": "async n'est pas utilisé comme type de modificateur d'accès dans TypeScript"
+        },
+        {
+            "questionText": "Quel mot-clé nous permet de partager des informations entre les fichiers en TypeScript ?",
+            "options": [{
+                    "text": "importer"
+                },
+                {
+                    "text": "exporter",
+                    "correct": true
+                },
+                {
+                    "text": "asynchrone"
+                },
+                {
+                    "text": "constructeur"
+                }
+            ],
+            "explanation": "le mot-clé export permet de transmettre les informations entre fichiers"
+        },
+        {
+            "questionText": " Quelle est une méthode de tableau pour générer un nouveau tableau basé sur une condition ?",
+            "options": [{
+                    "text": "filtre",
+                    "correct": true
+                },
+                {
+                    "text": "map"
+                },
+                {
+                    "text": "async"
+                },
+                {
+                    "text": "enum"
+                }
+            ],
+            "explanation": "filter  filter est une méthode utilisée pour créer conditionnellement un nouveau tableau"
+        },
+        {
+            "questionText": " Comment une propriété est-elle accessible au sein d'une classe?",
+            "options": [{
+                    "text": " En utilisant this.propertyName",
+                    "correct": true
+                },
+                {
+                    "text": "Accesseurs"
+                },
+                {
+                    "text": "Déstructuration"
+                },
+                {
+                    "text": " Fonction flèche"
+                }
+            ],
+            "explanation": " this.propertyName est le moyen d'accéder à une propriété spécifique au sein d'une classe "
+        }
+    ]
+}

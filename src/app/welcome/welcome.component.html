@@ -1,0 +1,18 @@
+<div class="container bg-light py-5">
+    <h1 class="display-5 fw-bold">Bienvenue dans le Quiz </h1>
+    <p class="col-md-8 fs-4">Ce quiz contient un total de 9 questions, chaque question valant 10 points.</p>
+<h4>Règles:</h4>
+<ol>
+    <li>Une bonne réponse vous donne 10 points</li>
+    <li>Une réponse incorrecte donne lieu à -10 points</li>
+    <li>vous aurez 30 secondes pour répondre à chaque question</li>
+    <li>Le rafraîchissement de la page réinitialisera le quiz</li>
+
+</ol>
+<h1 style="font-family:cursive;text-align: center">Bonne Chance!!</h1>
+<div class="name col-md-4 my-3">
+    <label for="">Entrez votre nom</label>
+    <input  #name type="text" class="form-control">
+</div>
+<button class="btn btn-primary btn-lg " routerLink="/question" (click)="StartQuiz()">Commencez le Quiz!</button>
+</div>
