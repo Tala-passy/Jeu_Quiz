@@ -25,3 +25,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Réalisation  d'un jeu de quiz ayant pour objectif:
+-Gérer le temps de réponse pour chaque question
+-Ajouter un système de malus /bonus associé à chaque réponse
+-Être capable de mettre en évidence le score à la fin de chaque partie
